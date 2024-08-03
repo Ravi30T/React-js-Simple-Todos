@@ -1,0 +1,61 @@
+/* Write your CSS here */
+
+.todoName {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.todoNameCompleted {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 15px;
+  text-decoration: line-through;
+}
+
+.eachTodo {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.save-edit-btn {
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-checkbox {
+  display: flex;
+}
+
+.check-box {
+  cursor: pointer;
+}

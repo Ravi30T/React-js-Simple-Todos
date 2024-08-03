@@ -1,0 +1,59 @@
+/* Write your CSS here */
+
+.bgContainer {
+  background-color: #ffc2a0;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoCardContainer {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.mainHeading {
+  font-family: 'Roboto';
+  color: #ff8542;
+  text-align: center;
+}
+
+.input-box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-box {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  height: 30px;
+  outline: none;
+  border: 1px solid lightgrey;
+}
+
+.number-input {
+  padding: 5px;
+  border-radius: 5px;
+  height: 30px;
+  outline: none;
+  border: 1px solid lightgrey;
+  margin-right: 10px;
+}
+
+.add-btn {
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px;
+  background-color: #ff8542;
+  border: none;
+  width: 45px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  cursor: pointer;
+}
